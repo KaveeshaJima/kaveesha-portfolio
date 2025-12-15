@@ -14,7 +14,7 @@ export default function Contact({ isVisible }) {
         href="mailto:kaveesha@example.com"
         className="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg shadow-lg transition-all"
       >
-        Email Me
+        Email Me kaveeshajima2004@gmail.com 
       </a>
     </section>
   );

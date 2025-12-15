@@ -10,7 +10,7 @@ export default function About({ isVisible }) {
       <p className="max-w-2xl mx-auto text-gray-600 leading-relaxed">
         I'm a passionate software developer with expertise in modern web and
         mobile application development. I enjoy building elegant, performant, and
-        user-friendly digital experiences using the latest technologies.
+        user-friendly digital experiences using the latest technologie.
       </p>
     </section>
   );
