@@ -34,7 +34,7 @@ export default function HeroSection({ isVisible, scrollToSection }) {
 
         {/* Subtitle */}
         <p className="text-xl md:text-3xl text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-          Software Developer | Full-Stack Engineer | Mobile & Web Enthusiast 🚀
+          Software Developer | Full-Stack Engineer | Mobile & Web Enthusiast 
         </p>
 
         {/* CTA Buttons */}
