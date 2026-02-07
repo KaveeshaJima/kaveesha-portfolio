@@ -4,7 +4,7 @@ export default function HeroSection({ isVisible, scrollToSection }) {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-gray-900 via-indigo-900 to-purple-900 text-white px-6 relative overflow-hidden"
+      className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-gray-900 via-indigo-900 to-purple-900 text-white px-6 pt-20 relative overflow-hidden"
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">

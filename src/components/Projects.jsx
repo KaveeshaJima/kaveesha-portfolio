@@ -46,11 +46,13 @@ export default function ProjectGallery({ isVisible }) {
 
   return (
     <section
-      id="projects"
-      className={`relative py-24 bg-gradient-to-b from-white to-gray-50 overflow-hidden transition-all duration-1000 ${
-        isVisible.projects ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-      }`}
-    >
+  id="projects"
+  className={`relative py-24 bg-gradient-to-b from-white to-gray-50 overflow-hidden transition-all duration-1000 ${
+    isVisible.projects 
+      ? "opacity-100 translate-y-0" 
+      : "opacity-100 translate-y-0 md:opacity-0 md:translate-y-10"
+  }`}
+>
       {/* Background Decorations */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-indigo-100 to-purple-100 rounded-full blur-3xl opacity-40"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-pink-100 to-indigo-100 rounded-full blur-3xl opacity-40"></div>
